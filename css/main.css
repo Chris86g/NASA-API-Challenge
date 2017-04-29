@@ -20,7 +20,6 @@ h1 {
   color: #222;
   text-shadow: 0 0 7px #67c4fd;
   font-family: Helvetica, sans-serif;
-  font-size: 6em;
   animation: pulse 5s infinite alternate;
 }
 
@@ -45,6 +44,7 @@ h1 {
 
 .wrap {
   width: 33.18%;
+  min-width: 300px;
   height: 48vh;
   background-size: cover;
   animation: pulse2 5s infinite alternate;
@@ -75,4 +75,28 @@ button {
   50% {color: #fff;}
   75% {color: #d6e301;}
   100% {color: #e39501;}
+}
+
+@media (max-width: 749px) {
+  h1 {
+    font-size: 2em;
+  }
+}
+
+@media (min-width: 750px) and (max-width: 999px) {
+  h1 {
+    font-size: 4em;
+  }
+}
+
+@media (min-width: 1000px) and (max-width: 1899px) {
+  h1 {
+    font-size: 6em;
+  }
+}
+
+@media (min-width: 1900px) {
+  h1 {
+    font-size: 8em;
+  }
 }
