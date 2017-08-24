@@ -15,7 +15,7 @@ $(function () {
   var bl = sec2.find('.bottomLeft');
   var bc = sec2.find('.bottomCenter');
   var br = sec2.find('.bottomRight');
-  var more = sec2.find('button');
+  var more = sec2.find('#more');
 
   var photoIndex = 0;
 
